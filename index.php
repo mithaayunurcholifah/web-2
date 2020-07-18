@@ -17,7 +17,7 @@
         <br>
         <button type="submit">LOGIN</button>
     </form>
- 
+
     <?php if(isset($_GET['pesan'])) {  ?>
     <label style="color:red;"><?php echo $_GET['pesan']; ?></label>
     <?php } ?>  
